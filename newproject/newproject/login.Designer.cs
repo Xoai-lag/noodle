@@ -73,7 +73,6 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(288, 27);
             textBox1.TabIndex = 3;
-
             // 
             // textBox2
             // 
@@ -90,7 +89,6 @@
             btnLogin.TabIndex = 5;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
-
             // 
             // btnRegister
             // 
@@ -100,7 +98,7 @@
             btnRegister.TabIndex = 6;
             btnRegister.Text = "Register";
             btnRegister.UseVisualStyleBackColor = true;
-            btnRegister.Click += this.btnRegister_Click;
+            btnRegister.Click += btnRegister_Click;
             // 
             // btnExit
             // 
@@ -135,7 +133,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "login";
-            Text = "Form1";
+            Text = "login";
             ResumeLayout(false);
             PerformLayout();
         }
