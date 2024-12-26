@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace newproject
 {
-    public partial class Form2 : Form
+    public partial class register : Form
     {
-        public Form2()
+        public register()
         {
             InitializeComponent();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

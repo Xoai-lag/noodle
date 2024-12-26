@@ -4,8 +4,6 @@ D:\noodle\newproject\newproject\bin\Debug\net8.0-windows\newproject.runtimeconfi
 D:\noodle\newproject\newproject\bin\Debug\net8.0-windows\newproject.dll
 D:\noodle\newproject\newproject\bin\Debug\net8.0-windows\newproject.pdb
 D:\noodle\newproject\newproject\obj\Debug\net8.0-windows\newproject.admin.resources
-D:\noodle\newproject\newproject\obj\Debug\net8.0-windows\newproject.Form1.resources
-D:\noodle\newproject\newproject\obj\Debug\net8.0-windows\newproject.Form2.resources
 D:\noodle\newproject\newproject\obj\Debug\net8.0-windows\newproject.csproj.GenerateResource.cache
 D:\noodle\newproject\newproject\obj\Debug\net8.0-windows\newproject.GeneratedMSBuildEditorConfig.editorconfig
 D:\noodle\newproject\newproject\obj\Debug\net8.0-windows\newproject.AssemblyInfoInputs.cache
@@ -17,3 +15,5 @@ D:\noodle\newproject\newproject\obj\Debug\net8.0-windows\refint\newproject.dll
 D:\noodle\newproject\newproject\obj\Debug\net8.0-windows\newproject.pdb
 D:\noodle\newproject\newproject\obj\Debug\net8.0-windows\newproject.genruntimeconfig.cache
 D:\noodle\newproject\newproject\obj\Debug\net8.0-windows\ref\newproject.dll
+D:\noodle\newproject\newproject\obj\Debug\net8.0-windows\newproject.login.resources
+D:\noodle\newproject\newproject\obj\Debug\net8.0-windows\newproject.register.resources
