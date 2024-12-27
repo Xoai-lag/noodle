@@ -161,6 +161,7 @@
             btnConfirm.TabIndex = 15;
             btnConfirm.Text = "CONFIRM";
             btnConfirm.UseVisualStyleBackColor = true;
+            btnConfirm.Click += btnConfirm_Click;
             // 
             // pictureBox1
             // 
@@ -192,7 +193,7 @@
             Controls.Add(dataGridView1);
             Name = "Home";
             Text = "Form1";
-            Load += Form1_Load;
+            Load += Home_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
