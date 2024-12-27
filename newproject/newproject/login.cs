@@ -37,13 +37,10 @@ namespace newproject
                     this.Hide();
                     Home home = new Home();
                     home.ShowDialog();
-                    this.Show();
-                }
-                else
-                {
-                    MessageBox.Show("Khong ton tai tai khoan!");
+                    return;
                 }
             }
+            MessageBox.Show("Khong ton tai tai khoan!");   
         }
     }
 }
