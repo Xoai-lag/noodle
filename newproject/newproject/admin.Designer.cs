@@ -45,8 +45,7 @@
             dgvOrder = new DataGridView();
             tabListuser = new TabPage();
             btnXoa = new Button();
-            btnSua = new Button();
-            dataGridView1 = new DataGridView();
+            dgvUser = new DataGridView();
             tabControl1.SuspendLayout();
             tabFood.SuspendLayout();
             panel1.SuspendLayout();
@@ -55,7 +54,7 @@
             taboders.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvOrder).BeginInit();
             tabListuser.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvUser).BeginInit();
             SuspendLayout();
             // 
             // tabControl1
@@ -106,6 +105,7 @@
             btnRepair.TabIndex = 8;
             btnRepair.Text = "REPAIR";
             btnRepair.UseVisualStyleBackColor = true;
+            btnRepair.Click += btnRepair_Click;
             // 
             // btnDelete
             // 
@@ -115,6 +115,7 @@
             btnDelete.TabIndex = 7;
             btnDelete.Text = "DELETE";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnAdd
             // 
@@ -170,9 +171,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(106, 37);
             label1.Name = "label1";
-            label1.Size = new Size(101, 23);
+            label1.Size = new Size(85, 23);
             label1.TabIndex = 0;
-            label1.Text = "Thêm món";
+            label1.Text = "Tên Món";
             // 
             // dgvFood
             // 
@@ -182,6 +183,7 @@
             dgvFood.RowHeadersWidth = 51;
             dgvFood.Size = new Size(1420, 385);
             dgvFood.TabIndex = 0;
+            dgvFood.CellClick += dgvFood_CellClick;
             // 
             // taboders
             // 
@@ -206,8 +208,7 @@
             // tabListuser
             // 
             tabListuser.Controls.Add(btnXoa);
-            tabListuser.Controls.Add(btnSua);
-            tabListuser.Controls.Add(dataGridView1);
+            tabListuser.Controls.Add(dgvUser);
             tabListuser.Location = new Point(4, 32);
             tabListuser.Name = "tabListuser";
             tabListuser.Padding = new Padding(3);
@@ -218,30 +219,22 @@
             // 
             // btnXoa
             // 
-            btnXoa.Location = new Point(883, 546);
+            btnXoa.Location = new Point(615, 546);
             btnXoa.Name = "btnXoa";
             btnXoa.Size = new Size(131, 46);
             btnXoa.TabIndex = 2;
             btnXoa.Text = "DELETE";
             btnXoa.UseVisualStyleBackColor = true;
+            btnXoa.Click += btnXoa_Click;
             // 
-            // btnSua
+            // dgvUser
             // 
-            btnSua.Location = new Point(478, 546);
-            btnSua.Name = "btnSua";
-            btnSua.Size = new Size(131, 46);
-            btnSua.TabIndex = 1;
-            btnSua.Text = "REPAIR";
-            btnSua.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(21, 10);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(1417, 498);
-            dataGridView1.TabIndex = 0;
+            dgvUser.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvUser.Location = new Point(21, 10);
+            dgvUser.Name = "dgvUser";
+            dgvUser.RowHeadersWidth = 51;
+            dgvUser.Size = new Size(1417, 498);
+            dgvUser.TabIndex = 0;
             // 
             // admin
             // 
@@ -261,7 +254,7 @@
             taboders.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvOrder).EndInit();
             tabListuser.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvUser).EndInit();
             ResumeLayout(false);
         }
 
@@ -284,7 +277,6 @@
         private Button btnAdd;
         private DataGridView dgvOrder;
         private Button btnXoa;
-        private Button btnSua;
-        private DataGridView dataGridView1;
+        private DataGridView dgvUser;
     }
 }

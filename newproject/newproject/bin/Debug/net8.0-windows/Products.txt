@@ -1,1 +1,4 @@
-FD0,Mì Cay,35.000,1
+FD1,Mì Soba,45.000,5
+FD2,Mì Ramen,45.000,5
+FD3,Mì Udon,45.000,9
+FD4,Mì YakiSoba,45.000,3

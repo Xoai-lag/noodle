@@ -12,7 +12,7 @@ namespace newproject
         Admin,
         User
     }
-    internal class Users
+    public class Users
     {
         // Thuộc tính của người dùng
         public string UserName { get; set; }

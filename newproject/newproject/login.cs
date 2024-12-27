@@ -34,6 +34,7 @@ namespace newproject
                         MessageBox.Show("Mat khau khong chinh xac!");
                         return;
                     }
+                    CurrentUser.LoggedInUser = user;
                     if (user.Role == LoaiNguoiDung.Admin)
                     {
                         this.Hide();

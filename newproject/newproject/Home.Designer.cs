@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            dataGridView1 = new DataGridView();
-            numericUpDown1 = new NumericUpDown();
+            dgvHome = new DataGridView();
+            nudHome = new NumericUpDown();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -43,26 +43,26 @@
             btnLogout = new Button();
             btnConfirm = new Button();
             pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvHome).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudHome).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // dataGridView1
+            // dgvHome
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(18, 240);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(1464, 468);
-            dataGridView1.TabIndex = 0;
+            dgvHome.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvHome.Location = new Point(18, 240);
+            dgvHome.Name = "dgvHome";
+            dgvHome.RowHeadersWidth = 51;
+            dgvHome.Size = new Size(1464, 468);
+            dgvHome.TabIndex = 0;
             // 
-            // numericUpDown1
+            // nudHome
             // 
-            numericUpDown1.Location = new Point(807, 100);
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(139, 27);
-            numericUpDown1.TabIndex = 2;
+            nudHome.Location = new Point(807, 100);
+            nudHome.Name = "nudHome";
+            nudHome.Size = new Size(139, 27);
+            nudHome.TabIndex = 2;
             // 
             // label1
             // 
@@ -103,6 +103,7 @@
             btnAdd.TabIndex = 6;
             btnAdd.Text = "ADD";
             btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += btnAdd_Click;
             // 
             // btnDelete
             // 
@@ -127,7 +128,7 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(190, 96);
+            comboBox1.Location = new Point(196, 96);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(345, 28);
             comboBox1.TabIndex = 12;
@@ -189,13 +190,13 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(numericUpDown1);
-            Controls.Add(dataGridView1);
+            Controls.Add(nudHome);
+            Controls.Add(dgvHome);
             Name = "Home";
             Text = "Form1";
             Load += Home_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvHome).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudHome).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -203,8 +204,8 @@
 
         #endregion
 
-        private DataGridView dataGridView1;
-        private NumericUpDown numericUpDown1;
+        private DataGridView dgvHome;
+        private NumericUpDown nudHome;
         private Label label1;
         private Label label2;
         private Label label3;
