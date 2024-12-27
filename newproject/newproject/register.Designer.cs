@@ -32,11 +32,11 @@
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
+            tennguoidung = new TextBox();
+            password = new TextBox();
+            cfmpassword = new TextBox();
+            dangki = new Button();
+            thoat = new Button();
             SuspendLayout();
             // 
             // label1
@@ -75,57 +75,59 @@
             label4.TabIndex = 3;
             label4.Text = "ĐĂNG KÝ";
             // 
-            // textBox1
+            // tennguoidung
             // 
-            textBox1.Location = new Point(215, 67);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(277, 27);
-            textBox1.TabIndex = 4;
-            textBox1.TextChanged += textBox1_TextChanged;
+            tennguoidung.Location = new Point(215, 67);
+            tennguoidung.Name = "tennguoidung";
+            tennguoidung.Size = new Size(277, 27);
+            tennguoidung.TabIndex = 4;
             // 
-            // textBox2
+            // password
             // 
-            textBox2.Location = new Point(216, 127);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(276, 27);
-            textBox2.TabIndex = 5;
+            password.Location = new Point(216, 127);
+            password.Name = "password";
+            password.PasswordChar = '*';
+            password.Size = new Size(276, 27);
+            password.TabIndex = 5;
             // 
-            // textBox3
+            // cfmpassword
             // 
-            textBox3.Location = new Point(216, 193);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(276, 27);
-            textBox3.TabIndex = 6;
+            cfmpassword.Location = new Point(216, 193);
+            cfmpassword.Name = "cfmpassword";
+            cfmpassword.PasswordChar = '*';
+            cfmpassword.Size = new Size(276, 27);
+            cfmpassword.TabIndex = 6;
             // 
-            // button1
+            // dangki
             // 
-            button1.Location = new Point(215, 259);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 7;
-            button1.Text = "Register";
-            button1.UseVisualStyleBackColor = true;
+            dangki.Location = new Point(215, 259);
+            dangki.Name = "dangki";
+            dangki.Size = new Size(94, 29);
+            dangki.TabIndex = 7;
+            dangki.Text = "Register";
+            dangki.UseVisualStyleBackColor = true;
+            dangki.Click += dangki_Click;
             // 
-            // button2
+            // thoat
             // 
-            button2.Location = new Point(398, 259);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 8;
-            button2.Text = "Exit";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += textBox1_TextChanged;
+            thoat.Location = new Point(374, 259);
+            thoat.Name = "thoat";
+            thoat.Size = new Size(94, 29);
+            thoat.TabIndex = 8;
+            thoat.Text = "EXIT";
+            thoat.UseVisualStyleBackColor = true;
+            thoat.Click += thoat_Click;
             // 
             // register
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(577, 331);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(thoat);
+            Controls.Add(dangki);
+            Controls.Add(cfmpassword);
+            Controls.Add(password);
+            Controls.Add(tennguoidung);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -142,10 +144,11 @@
         private Label label2;
         private Label label3;
         private Label label4;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private Button button1;
-        private Button button2;
+        private TextBox tennguoidung;
+        private TextBox password;
+        private TextBox cfmpassword;
+        private Button dangki;
+        private Button exit;
+        private Button thoat;
     }
 }

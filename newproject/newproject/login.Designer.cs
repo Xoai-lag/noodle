@@ -31,11 +31,11 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            txtName = new TextBox();
+            txtPass = new TextBox();
             btnLogin = new Button();
             btnRegister = new Button();
-            btnExit = new Button();
+            btnNext = new Button();
             label4 = new Label();
             SuspendLayout();
             // 
@@ -67,19 +67,19 @@
             label3.TabIndex = 2;
             label3.Text = "Password";
             // 
-            // textBox1
+            // txtName
             // 
-            textBox1.Location = new Point(165, 82);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(288, 27);
-            textBox1.TabIndex = 3;
+            txtName.Location = new Point(165, 82);
+            txtName.Name = "txtName";
+            txtName.Size = new Size(288, 27);
+            txtName.TabIndex = 3;
             // 
-            // textBox2
+            // txtPass
             // 
-            textBox2.Location = new Point(165, 155);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(288, 27);
-            textBox2.TabIndex = 4;
+            txtPass.Location = new Point(165, 155);
+            txtPass.Name = "txtPass";
+            txtPass.Size = new Size(288, 27);
+            txtPass.TabIndex = 4;
             // 
             // btnLogin
             // 
@@ -89,10 +89,11 @@
             btnLogin.TabIndex = 5;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += btnLogin_Click;
             // 
             // btnRegister
             // 
-            btnRegister.Location = new Point(379, 274);
+            btnRegister.Location = new Point(338, 274);
             btnRegister.Name = "btnRegister";
             btnRegister.Size = new Size(94, 29);
             btnRegister.TabIndex = 6;
@@ -100,23 +101,23 @@
             btnRegister.UseVisualStyleBackColor = true;
             btnRegister.Click += btnRegister_Click;
             // 
-            // btnExit
+            // btnNext
             // 
-            btnExit.Location = new Point(359, 215);
-            btnExit.Name = "btnExit";
-            btnExit.Size = new Size(94, 29);
-            btnExit.TabIndex = 7;
-            btnExit.Text = "Exit";
-            btnExit.UseVisualStyleBackColor = true;
+            btnNext.Location = new Point(359, 215);
+            btnNext.Name = "btnNext";
+            btnNext.Size = new Size(94, 29);
+            btnNext.TabIndex = 7;
+            btnNext.Text = "Next";
+            btnNext.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(84, 278);
+            label4.Location = new Point(182, 278);
             label4.Name = "label4";
-            label4.Size = new Size(270, 20);
+            label4.Size = new Size(137, 20);
             label4.TabIndex = 8;
-            label4.Text = "Nếu chưa có tài khoản thì nhấn vào đây";
+            label4.Text = "Chưa Có Tài Khoản ";
             // 
             // login
             // 
@@ -124,17 +125,16 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(577, 331);
             Controls.Add(label4);
-            Controls.Add(btnExit);
+            Controls.Add(btnNext);
             Controls.Add(btnRegister);
             Controls.Add(btnLogin);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtPass);
+            Controls.Add(txtName);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "login";
             Text = "login";
-            Load += login_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -144,11 +144,11 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtName;
+        private TextBox txtPass;
         private Button btnLogin;
         private Button btnRegister;
-        private Button btnExit;
+        private Button btnNext;
         private Label label4;
     }
 }
