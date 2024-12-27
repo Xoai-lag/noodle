@@ -29,6 +29,12 @@ namespace newproject
             string name=tennguoidung.Text;
             string pass=password.Text;
             string cfmpass=cfmpassword.Text;
+            // Kiểm tra nếu người dùng chưa nhập đầy đủ thông tin
+            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(pass) || string.IsNullOrEmpty(cfmpass))
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin!");
+                return;
+            }
             List<Users> users = new List<Users>();
             users = Users.ReadUsersFormFile(path);
             foreach (Users user in users) { 
