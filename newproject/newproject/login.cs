@@ -19,9 +19,15 @@ namespace newproject
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             string name = txtName.Text;
             string pass = txtPass.Text;
             if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(pass)) {
+=======
+            string name=txtName.Text;
+            string pass=txtPass.Text;
+            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(pass) ){
+>>>>>>> master
                 MessageBox.Show("Vui long dien day du thong tin!");
                 return;
             }
@@ -34,10 +40,14 @@ namespace newproject
                         MessageBox.Show("Mat khau khong chinh xac!");
                         return;
                     }
+<<<<<<< HEAD
                     this.Hide();
                     Home home = new Home();
                     home.ShowDialog();
                     this.Show();
+=======
+                    
+>>>>>>> master
                 }
             }
             MessageBox.Show("Khong ton tai tai khoan!");
