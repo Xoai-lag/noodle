@@ -40,3 +40,4 @@ D:\newproject\newproject\newproject\obj\Debug\net8.0-windows\newproject.Home.res
 D:\newproject\newproject\newproject\obj\Debug\net8.0-windows\newproject.Properties.Resources.resources
 D:\noodle\newproject\newproject\obj\Debug\net8.0-windows\newproject.Home.resources
 D:\noodle\newproject\newproject\obj\Debug\net8.0-windows\newproject.Properties.Resources.resources
+D:\noodle\newproject\newproject\obj\Debug\net8.0-windows\newproject.Bill.resources
