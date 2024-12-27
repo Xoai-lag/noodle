@@ -39,8 +39,11 @@ namespace newproject
                     home.ShowDialog();
                     this.Show();
                 }
+                else
+                {
+                    MessageBox.Show("Khong ton tai tai khoan!");
+                }
             }
-            MessageBox.Show("Khong ton tai tai khoan!");
         }
     }
 }

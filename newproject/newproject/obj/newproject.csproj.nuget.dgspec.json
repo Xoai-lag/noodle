@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\newproject\\newproject\\newproject\\newproject.csproj": {}
+    "D:\\noodle\\newproject\\newproject\\newproject.csproj": {}
   },
   "projects": {
-    "D:\\newproject\\newproject\\newproject\\newproject.csproj": {
+    "D:\\noodle\\newproject\\newproject\\newproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\newproject\\newproject\\newproject\\newproject.csproj",
+        "projectUniqueName": "D:\\noodle\\newproject\\newproject\\newproject.csproj",
         "projectName": "newproject",
-        "projectPath": "D:\\newproject\\newproject\\newproject\\newproject.csproj",
+        "projectPath": "D:\\noodle\\newproject\\newproject\\newproject.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\newproject\\newproject\\newproject\\obj\\",
+        "outputPath": "D:\\noodle\\newproject\\newproject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
