@@ -21,7 +21,7 @@ namespace newproject
         {
             string name=txtName.Text;
             string pass=txtPass.Text;
-            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(pass) {
+            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(pass) ){
                 MessageBox.Show("Vui long dien day du thong tin!");
                 return;
             }
@@ -34,7 +34,7 @@ namespace newproject
                         MessageBox.Show("Mat khau khong chinh xac!");
                         return;
                     }
-
+                    
                 }
             }
             MessageBox.Show("Khong ton tai tai khoan!");

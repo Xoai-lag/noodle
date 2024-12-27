@@ -29,28 +29,75 @@
         private void InitializeComponent()
         {
             tabControl1 = new TabControl();
-            tabPage1 = new TabPage();
+            tabFood = new TabPage();
+            taboders = new TabPage();
+            tabListuser = new TabPage();
+            dtgFood = new DataGridView();
+            panel1 = new Panel();
             tabControl1.SuspendLayout();
+            tabFood.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dtgFood).BeginInit();
             SuspendLayout();
             // 
             // tabControl1
             // 
-            tabControl1.Controls.Add(tabPage1);
+            tabControl1.Controls.Add(tabFood);
+            tabControl1.Controls.Add(taboders);
+            tabControl1.Controls.Add(tabListuser);
+            tabControl1.Font = new Font("Segoe UI Historic", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             tabControl1.Location = new Point(12, 12);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
             tabControl1.Size = new Size(1470, 649);
             tabControl1.TabIndex = 0;
             // 
-            // tabPage1
+            // tabFood
             // 
-            tabPage1.Location = new Point(4, 29);
-            tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(1462, 616);
-            tabPage1.TabIndex = 0;
-            tabPage1.Text = "Food";
-            tabPage1.UseVisualStyleBackColor = true;
+            tabFood.Controls.Add(panel1);
+            tabFood.Controls.Add(dtgFood);
+            tabFood.Location = new Point(4, 32);
+            tabFood.Name = "tabFood";
+            tabFood.Padding = new Padding(3);
+            tabFood.Size = new Size(1462, 613);
+            tabFood.TabIndex = 0;
+            tabFood.Text = "Food";
+            tabFood.UseVisualStyleBackColor = true;
+            // 
+            // taboders
+            // 
+            taboders.Location = new Point(4, 29);
+            taboders.Name = "taboders";
+            taboders.Padding = new Padding(3);
+            taboders.Size = new Size(1462, 616);
+            taboders.TabIndex = 1;
+            taboders.Text = "Oders";
+            taboders.UseVisualStyleBackColor = true;
+            // 
+            // tabListuser
+            // 
+            tabListuser.Location = new Point(4, 32);
+            tabListuser.Name = "tabListuser";
+            tabListuser.Padding = new Padding(3);
+            tabListuser.Size = new Size(1462, 613);
+            tabListuser.TabIndex = 2;
+            tabListuser.Text = "ListUser";
+            tabListuser.UseVisualStyleBackColor = true;
+            // 
+            // dtgFood
+            // 
+            dtgFood.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dtgFood.Location = new Point(20, 28);
+            dtgFood.Name = "dtgFood";
+            dtgFood.RowHeadersWidth = 51;
+            dtgFood.Size = new Size(1420, 385);
+            dtgFood.TabIndex = 0;
+            // 
+            // panel1
+            // 
+            panel1.Location = new Point(20, 440);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1420, 160);
+            panel1.TabIndex = 1;
             // 
             // admin
             // 
@@ -61,12 +108,18 @@
             Name = "admin";
             Text = "ADMIN";
             tabControl1.ResumeLayout(false);
+            tabFood.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dtgFood).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private TabControl tabControl1;
-        private TabPage tabPage1;
+        private TabPage tabFood;
+        private TabPage taboders;
+        private TabPage tabListuser;
+        private Panel panel1;
+        private DataGridView dtgFood;
     }
 }
