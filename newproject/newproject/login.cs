@@ -34,10 +34,22 @@ namespace newproject
                         MessageBox.Show("Mat khau khong chinh xac!");
                         return;
                     }
-                    this.Hide();
-                    Home home = new Home();
-                    home.ShowDialog();
-                    return;
+                    if (user.Role == LoaiNguoiDung.Admin)
+                    {
+                        this.Hide();
+                        admin AD = new admin();
+                        AD.ShowDialog();
+                        this.Show();
+                        return;
+                    }
+                    else
+                    {
+                        this.Hide();
+                        Home home = new Home();
+                        home.ShowDialog();
+                        this.Show();
+                        return;
+                    }
                 }
             }
             MessageBox.Show("Khong ton tai tai khoan!");   

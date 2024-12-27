@@ -73,7 +73,7 @@ namespace newproject
             }
             else
             { 
-                MessageBox.Show("File không tồn tại, đã tạo file mới với người dùng mặc định.");
+                MessageBox.Show("File không tồn tại!");
             }
             return users;
         }
