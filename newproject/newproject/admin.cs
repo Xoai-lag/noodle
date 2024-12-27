@@ -17,19 +17,29 @@ namespace newproject
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void btnAdd_Click(object sender, EventArgs e)
         {
+            string name = txtFood.Text;
+            decimal price = Convert.ToDecimal(txtGia.Text);
+            var temp = products.ReadProductsFormFile("Products.txt");
+            int quantity = (int)nudQuantity.Value;
+            int len = temp.Count;
+            string id = "FD" + len.ToString();
+            var result = new products(id, name, price, quantity);
+            temp.Add(result);
+            bool err = products.WriteProductsToFile("Products.txt", temp);
+            if (err) 
+            {
+                dgvFood.DataSource = null;
+                dgvFood.DataSource = temp;
+            }
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void admin_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnSua_Click(object sender, EventArgs e)
-        {
-
+            var temp = products.ReadProductsFormFile("Products.txt");
+            dgvFood.DataSource = temp;
         }
     }
 }

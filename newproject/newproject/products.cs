@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualBasic.ApplicationServices;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,12 +34,18 @@ namespace newproject
                     {
                         if (string.IsNullOrWhiteSpace(line)) continue;
                         var parts = line.Split(',');
+                        decimal price;
+                        bool err = decimal.TryParse(parts[2], out price);
+                        if (!err)
+                        {
+                            continue;
+                        }
                         if (parts.Length == 4)
                         {
-                            var product = new products(
+                            products product = new products(
                                parts[0], // product_id
                                parts[1], // product_name
-                               decimal.Parse(parts[2]), // price
+                               price,
                                int.Parse(parts[3]) // quantity
                            );
                             products.Add(product);

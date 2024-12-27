@@ -31,9 +31,9 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             dgvBill = new DataGridView();
-            label2 = new Label();
             label3 = new Label();
             tbTotalbill = new TextBox();
+            btnPayment = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvBill).BeginInit();
             SuspendLayout();
@@ -68,20 +68,11 @@
             dgvBill.Size = new Size(427, 344);
             dgvBill.TabIndex = 2;
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(26, 571);
-            label2.Name = "label2";
-            label2.Size = new Size(315, 20);
-            label2.TabIndex = 3;
-            label2.Text = "___________________________________________________";
-            // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(335, 571);
+            label3.Location = new Point(26, 587);
             label3.Name = "label3";
             label3.Size = new Size(114, 28);
             label3.TabIndex = 4;
@@ -90,19 +81,30 @@
             // tbTotalbill
             // 
             tbTotalbill.BackColor = SystemColors.MenuBar;
-            tbTotalbill.Location = new Point(328, 602);
+            tbTotalbill.Location = new Point(146, 591);
             tbTotalbill.Name = "tbTotalbill";
-            tbTotalbill.Size = new Size(125, 27);
+            tbTotalbill.Size = new Size(221, 27);
             tbTotalbill.TabIndex = 5;
+            // 
+            // btnPayment
+            // 
+            btnPayment.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnPayment.ForeColor = SystemColors.ActiveCaptionText;
+            btnPayment.Location = new Point(190, 637);
+            btnPayment.Name = "btnPayment";
+            btnPayment.Size = new Size(117, 44);
+            btnPayment.TabIndex = 6;
+            btnPayment.Text = "THANH TOÁN";
+            btnPayment.UseVisualStyleBackColor = true;
             // 
             // Bill
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(485, 668);
+            ClientSize = new Size(485, 693);
+            Controls.Add(btnPayment);
             Controls.Add(tbTotalbill);
             Controls.Add(label3);
-            Controls.Add(label2);
             Controls.Add(dgvBill);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
@@ -119,8 +121,8 @@
         private PictureBox pictureBox1;
         private Label label1;
         private DataGridView dgvBill;
-        private Label label2;
         private Label label3;
         private TextBox tbTotalbill;
+        private Button btnPayment;
     }
 }

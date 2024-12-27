@@ -34,13 +34,13 @@
             btnRepair = new Button();
             btnDelete = new Button();
             btnAdd = new Button();
-            tbCost = new TextBox();
+            txtGia = new TextBox();
             label3 = new Label();
             nudQuantity = new NumericUpDown();
             label2 = new Label();
             txtFood = new TextBox();
             label1 = new Label();
-            dtgFood = new DataGridView();
+            dgvFood = new DataGridView();
             taboders = new TabPage();
             dgvOrder = new DataGridView();
             tabListuser = new TabPage();
@@ -51,7 +51,7 @@
             tabFood.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nudQuantity).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dtgFood).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvFood).BeginInit();
             taboders.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvOrder).BeginInit();
             tabListuser.SuspendLayout();
@@ -73,7 +73,7 @@
             // tabFood
             // 
             tabFood.Controls.Add(panel1);
-            tabFood.Controls.Add(dtgFood);
+            tabFood.Controls.Add(dgvFood);
             tabFood.Location = new Point(4, 32);
             tabFood.Name = "tabFood";
             tabFood.Padding = new Padding(3);
@@ -87,7 +87,7 @@
             panel1.Controls.Add(btnRepair);
             panel1.Controls.Add(btnDelete);
             panel1.Controls.Add(btnAdd);
-            panel1.Controls.Add(tbCost);
+            panel1.Controls.Add(txtGia);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(nudQuantity);
             panel1.Controls.Add(label2);
@@ -97,7 +97,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1420, 160);
             panel1.TabIndex = 1;
-            panel1.Paint += panel1_Paint;
             // 
             // btnRepair
             // 
@@ -116,7 +115,6 @@
             btnDelete.TabIndex = 7;
             btnDelete.Text = "DELETE";
             btnDelete.UseVisualStyleBackColor = true;
-            btnDelete.Click += button2_Click;
             // 
             // btnAdd
             // 
@@ -126,13 +124,14 @@
             btnAdd.TabIndex = 6;
             btnAdd.Text = "ADD";
             btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += btnAdd_Click;
             // 
-            // tbCost
+            // txtGia
             // 
-            tbCost.Location = new Point(366, 101);
-            tbCost.Name = "tbCost";
-            tbCost.Size = new Size(160, 30);
-            tbCost.TabIndex = 5;
+            txtGia.Location = new Point(366, 101);
+            txtGia.Name = "txtGia";
+            txtGia.Size = new Size(160, 30);
+            txtGia.TabIndex = 5;
             // 
             // label3
             // 
@@ -175,14 +174,14 @@
             label1.TabIndex = 0;
             label1.Text = "Thêm món";
             // 
-            // dtgFood
+            // dgvFood
             // 
-            dtgFood.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtgFood.Location = new Point(20, 28);
-            dtgFood.Name = "dtgFood";
-            dtgFood.RowHeadersWidth = 51;
-            dtgFood.Size = new Size(1420, 385);
-            dtgFood.TabIndex = 0;
+            dgvFood.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvFood.Location = new Point(20, 28);
+            dgvFood.Name = "dgvFood";
+            dgvFood.RowHeadersWidth = 51;
+            dgvFood.Size = new Size(1420, 385);
+            dgvFood.TabIndex = 0;
             // 
             // taboders
             // 
@@ -225,7 +224,6 @@
             btnXoa.TabIndex = 2;
             btnXoa.Text = "DELETE";
             btnXoa.UseVisualStyleBackColor = true;
-            btnXoa.Click += btnSua_Click;
             // 
             // btnSua
             // 
@@ -253,12 +251,13 @@
             Controls.Add(tabControl1);
             Name = "admin";
             Text = "ADMIN";
+            Load += admin_Load;
             tabControl1.ResumeLayout(false);
             tabFood.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)nudQuantity).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dtgFood).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvFood).EndInit();
             taboders.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvOrder).EndInit();
             tabListuser.ResumeLayout(false);
@@ -273,13 +272,13 @@
         private TabPage taboders;
         private TabPage tabListuser;
         private Panel panel1;
-        private DataGridView dtgFood;
+        private DataGridView dgvFood;
         private TextBox txtFood;
         private Label label1;
         private Label label3;
         private NumericUpDown nudQuantity;
         private Label label2;
-        private TextBox tbCost;
+        private TextBox txtGia;
         private Button btnRepair;
         private Button btnDelete;
         private Button btnAdd;

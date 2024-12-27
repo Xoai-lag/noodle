@@ -1,1 +1,1 @@
-product_id,product_name,price,quantity
+FD0,Mì Cay,35.000,1
