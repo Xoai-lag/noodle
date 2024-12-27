@@ -3,75 +3,44 @@
   "WorkspaceRootPath": "D:\\noodle\\newproject\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|d:\\noodle\\newproject\\newproject\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|d:\\noodle\\newproject\\newproject\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|d:\\noodle\\newproject\\newproject\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|d:\\noodle\\newproject\\newproject\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|d:\\noodle\\newproject\\newproject\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|d:\\noodle\\newproject\\newproject\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|D:\\noodle\\newproject\\newproject\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|d:\\noodle\\newproject\\newproject\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|D:\\noodle\\newproject\\newproject\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|d:\\noodle\\newproject\\newproject\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|D:\\noodle\\newproject\\newproject\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
->>>>>>> master
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|D:\\noodle\\newproject\\newproject\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-<<<<<<< HEAD
     },
     {
       "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|d:\\noodle\\newproject\\newproject\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|d:\\noodle\\newproject\\newproject\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
->>>>>>> master
     },
     {
       "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|D:\\noodle\\newproject\\newproject\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-<<<<<<< HEAD
-=======
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|d:\\noodle\\newproject\\newproject\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|d:\\noodle\\newproject\\newproject\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|d:\\noodle\\newproject\\newproject\\admin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\admin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|d:\\noodle\\newproject\\newproject\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|d:\\noodle\\newproject\\newproject\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|d:\\noodle\\newproject\\newproject\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3194984C-0F22-4356-801C-0703FB4F6137}|newproject\\newproject.csproj|solutionrelative:newproject\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> master
     }
   ],
   "DocumentGroupContainers": [
@@ -81,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -93,8 +62,20 @@
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "products.cs",
+              "DocumentMoniker": "D:\\noodle\\newproject\\newproject\\products.cs",
+              "RelativeDocumentMoniker": "newproject\\products.cs",
+              "ToolTip": "D:\\noodle\\newproject\\newproject\\products.cs*",
+              "RelativeToolTip": "newproject\\products.cs*",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowDMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T09:10:14.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Home.Designer.cs",
               "DocumentMoniker": "D:\\noodle\\newproject\\newproject\\Home.Designer.cs",
               "RelativeDocumentMoniker": "newproject\\Home.Designer.cs",
@@ -102,24 +83,11 @@
               "RelativeToolTip": "newproject\\Home.Designer.cs",
               "ViewState": "AgIAAJUAAAAAAAAAAAAWwKIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T08:43:45.735Z",
-=======
-              "DocumentIndex": 3,
-              "Title": "products.cs",
-              "DocumentMoniker": "D:\\noodle\\newproject\\newproject\\products.cs",
-              "RelativeDocumentMoniker": "newproject\\products.cs",
-              "ToolTip": "D:\\noodle\\newproject\\newproject\\products.cs",
-              "RelativeToolTip": "newproject\\products.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAqwCYAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T08:14:24.587Z",
->>>>>>> master
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T08:43:45.735Z"
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Home.cs",
               "DocumentMoniker": "D:\\noodle\\newproject\\newproject\\Home.cs",
               "RelativeDocumentMoniker": "newproject\\Home.cs",
@@ -128,126 +96,72 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T08:05:22.83Z",
-=======
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "admin.Designer.cs",
-              "DocumentMoniker": "D:\\noodle\\newproject\\newproject\\admin.Designer.cs",
-              "RelativeDocumentMoniker": "newproject\\admin.Designer.cs",
-              "ToolTip": "D:\\noodle\\newproject\\newproject\\admin.Designer.cs",
-              "RelativeToolTip": "newproject\\admin.Designer.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T07:43:21.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "admin.cs",
-              "DocumentMoniker": "D:\\noodle\\newproject\\newproject\\admin.cs",
-              "RelativeDocumentMoniker": "newproject\\admin.cs",
-              "ToolTip": "D:\\noodle\\newproject\\newproject\\admin.cs",
-              "RelativeToolTip": "newproject\\admin.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAawBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T07:43:09.732Z",
->>>>>>> master
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-<<<<<<< HEAD
               "Title": "Home.cs [Design]",
               "DocumentMoniker": "D:\\noodle\\newproject\\newproject\\Home.cs",
               "RelativeDocumentMoniker": "newproject\\Home.cs",
               "ToolTip": "D:\\noodle\\newproject\\newproject\\Home.cs [Design]",
               "RelativeToolTip": "newproject\\Home.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T07:42:18.874Z",
-=======
+              "WhenOpened": "2024-12-27T07:42:18.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "admin.cs [Design]",
               "DocumentMoniker": "D:\\noodle\\newproject\\newproject\\admin.cs",
               "RelativeDocumentMoniker": "newproject\\admin.cs",
               "ToolTip": "D:\\noodle\\newproject\\newproject\\admin.cs [Design]",
               "RelativeToolTip": "newproject\\admin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T07:42:01.166Z",
->>>>>>> master
+              "WhenOpened": "2024-12-27T07:41:58.363Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 3,
-              "Title": "admin.cs [Design]",
-              "DocumentMoniker": "D:\\noodle\\newproject\\newproject\\admin.cs",
-              "RelativeDocumentMoniker": "newproject\\admin.cs",
-              "ToolTip": "D:\\newproject\\newproject\\newproject\\admin.cs [Design]",
-              "RelativeToolTip": "..\\..\\newproject\\newproject\\newproject\\admin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T07:41:58.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-=======
-              "DocumentIndex": 8,
->>>>>>> master
               "Title": "register.cs",
               "DocumentMoniker": "D:\\noodle\\newproject\\newproject\\register.cs",
               "RelativeDocumentMoniker": "newproject\\register.cs",
               "ToolTip": "D:\\noodle\\newproject\\newproject\\register.cs",
               "RelativeToolTip": "newproject\\register.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T07:17:20.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 4,
-=======
-              "DocumentIndex": 7,
->>>>>>> master
+              "DocumentIndex": 1,
               "Title": "login.cs",
               "DocumentMoniker": "D:\\noodle\\newproject\\newproject\\login.cs",
               "RelativeDocumentMoniker": "newproject\\login.cs",
               "ToolTip": "D:\\noodle\\newproject\\newproject\\login.cs",
               "RelativeToolTip": "newproject\\login.cs",
-<<<<<<< HEAD
-              "ViewState": "AgIAABAAAAAAAAAAAAAvwCcAAAAgAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAABoAAAAAAAAAAAAhwCQAAAAUAAAAAAAAAA==",
->>>>>>> master
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwCcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T07:13:56.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 6,
-=======
-              "DocumentIndex": 4,
->>>>>>> master
+              "DocumentIndex": 8,
               "Title": "Users.cs",
               "DocumentMoniker": "D:\\noodle\\newproject\\newproject\\Users.cs",
               "RelativeDocumentMoniker": "newproject\\Users.cs",
               "ToolTip": "D:\\noodle\\newproject\\newproject\\Users.cs",
               "RelativeToolTip": "newproject\\Users.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAswEkAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwC0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-26T11:50:15.785Z"
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 8,
-=======
-              "DocumentIndex": 2,
->>>>>>> master
+              "DocumentIndex": 9,
               "Title": "register.cs [Design]",
               "DocumentMoniker": "D:\\noodle\\newproject\\newproject\\register.cs",
               "RelativeDocumentMoniker": "newproject\\register.cs",
@@ -258,16 +172,12 @@
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 5,
-=======
-              "DocumentIndex": 1,
->>>>>>> master
+              "DocumentIndex": 7,
               "Title": "login.cs [Design]",
               "DocumentMoniker": "D:\\noodle\\newproject\\newproject\\login.cs",
               "RelativeDocumentMoniker": "newproject\\login.cs",
-              "ToolTip": "D:\\newproject\\newproject\\newproject\\login.cs [Design]",
-              "RelativeToolTip": "..\\..\\newproject\\newproject\\newproject\\login.cs [Design]",
+              "ToolTip": "D:\\noodle\\newproject\\newproject\\login.cs [Design]",
+              "RelativeToolTip": "newproject\\login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-26T09:36:57.332Z"
             }
