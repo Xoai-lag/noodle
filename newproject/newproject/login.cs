@@ -13,5 +13,10 @@ namespace newproject
             registerform.ShowDialog();
             this.Show();
         }
+
+        private void login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
