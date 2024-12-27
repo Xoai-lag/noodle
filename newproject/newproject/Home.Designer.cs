@@ -56,6 +56,7 @@
             dgvHome.RowHeadersWidth = 51;
             dgvHome.Size = new Size(1464, 468);
             dgvHome.TabIndex = 0;
+            dgvHome.CellClick += dgvHome_CellClick;
             // 
             // nudHome
             // 
@@ -114,6 +115,7 @@
             btnDelete.TabIndex = 7;
             btnDelete.Text = "DELETE";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnRepair
             // 
@@ -124,6 +126,7 @@
             btnRepair.TabIndex = 8;
             btnRepair.Text = "REPAIR";
             btnRepair.UseVisualStyleBackColor = true;
+            btnRepair.Click += btnRepair_Click;
             // 
             // comboBox1
             // 

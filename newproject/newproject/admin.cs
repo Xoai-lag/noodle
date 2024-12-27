@@ -43,6 +43,8 @@ namespace newproject
             dgvFood.DataSource = temp;
             var result = Users.ReadUsersFormFile("Users.txt");
             dgvUser.DataSource = result;
+            var Orr = Orders.ReadOrdersFormFile("orders.txt");
+            dgvOrder.DataSource = Orr;
         }
 
         private void dgvFood_CellClick(object sender, DataGridViewCellEventArgs e)

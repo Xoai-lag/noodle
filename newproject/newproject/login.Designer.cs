@@ -136,6 +136,7 @@
             Controls.Add(label1);
             Name = "login";
             Text = "login";
+
             ResumeLayout(false);
             PerformLayout();
         }

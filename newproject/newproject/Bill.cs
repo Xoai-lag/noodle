@@ -16,15 +16,61 @@ namespace newproject
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void Bill_Load(object sender, EventArgs e)
         {
-
+            var ListFood = Home.GetFood();
+            dgvBill.DataSource = null;
+            dgvBill.DataSource = ListFood;
+            decimal total = 0;
+            foreach (var food in ListFood)
+            {
+                total += food.price * food.quantity;
+            }
+            tbTotalbill.Text = total.ToString();
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void btnPayment_Click(object sender, EventArgs e)
         {
+            string orderId = Guid.NewGuid().ToString(); // Tạo OrderID duy nhất
+            string customerName = CurrentUser.LoggedInUser.UserName; // Lấy tên người dùng hiện tại
+            DateTime orderDate = DateTime.Now;
+            var items = new List<item>();
+            foreach (DataGridViewRow row in dgvBill.Rows)
+            {
+                if (row.Cells["product_id"].Value != null && row.Cells["quantity"].Value != null)
+                {
+                    string productId = row.Cells["product_id"].Value.ToString();
+                    int quantity = int.Parse(row.Cells["quantity"].Value.ToString());
+                    decimal price = decimal.Parse(row.Cells["price"].Value.ToString());
 
+                    items.Add(new item(orderId, productId, quantity, price));
+
+                }
+            }
+
+            decimal totalPrice = 0;
+            foreach (var food in items)
+            {
+                totalPrice += food.Price * food.Quantity;
+            }
+            // Tạo đối tượng đơn hàng
+            Orders order = new Orders(orderId, customerName, orderDate, totalPrice, items);
+
+            // Đọc các đơn hàng hiện có từ file
+            List<Orders> existingOrders = Orders.ReadOrdersFormFile("orders.txt");
+            existingOrders.Add(order);
+            // Ghi lại tất cả đơn hàng vào file
+            bool success = Orders.WriteOrdersToFile("orders.txt", existingOrders);
+
+            if (success)
+            {
+                MessageBox.Show("Đơn hàng đã được xử lý thành công.");
+            }
+            else
+            {
+                MessageBox.Show("Không thể lưu đơn hàng.");
+            }
+            this.Close();
         }
     }
 }

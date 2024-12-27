@@ -21,14 +21,16 @@ namespace newproject
         {
             string name = txtName.Text;
             string pass = txtPass.Text;
-            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(pass)) {
+            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(pass))
+            {
                 MessageBox.Show("Vui long dien day du thong tin!");
                 return;
             }
             var temp = Users.ReadUsersFormFile(path);
-            foreach (var user in temp) 
+            foreach (var user in temp)
             {
-                if (user.UserName == name) {
+                if (user.UserName == name)
+                {
                     if (user.Password != pass)
                     {
                         MessageBox.Show("Mat khau khong chinh xac!");
@@ -53,7 +55,8 @@ namespace newproject
                     }
                 }
             }
-            MessageBox.Show("Khong ton tai tai khoan!");   
+            MessageBox.Show("Khong ton tai tai khoan!");
         }
+
     }
 }

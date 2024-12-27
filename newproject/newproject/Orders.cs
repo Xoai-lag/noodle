@@ -69,10 +69,13 @@ namespace newproject
         }
 
         //Ghi file
-        public static bool WriteOrdersToFile(string Filename,List<Orders> orders)
+        public static bool WriteOrdersToFile(string Filename, List<Orders> orders)
         {
-            if (File.Exists(Filename)) {
-                using (StreamWriter writer = new StreamWriter(Filename)) {
+            try
+            {
+                // Mở file để ghi, nếu file không tồn tại, nó sẽ tự động tạo mới
+                using (StreamWriter writer = new StreamWriter(Filename, append: false))
+                {
                     foreach (var order in orders)
                     {
                         // Ghi thông tin đơn hàng
@@ -82,15 +85,16 @@ namespace newproject
                         // Ghi thông tin món ăn
                         foreach (var item in order.Items)
                         {
-                            var itemLine = $"{item.ProductID},{item.Quantity},{item.Price}";
+                            var itemLine = $"{item.OrderID},{item.ProductID},{item.Quantity},{item.Price}";
                             writer.WriteLine(itemLine);
                         }
-                     }
+                    }
                 }
                 return true;
             }
-            else
+            catch (Exception ex)
             {
+                MessageBox.Show($"Có lỗi khi ghi đơn hàng: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }

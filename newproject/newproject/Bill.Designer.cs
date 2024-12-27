@@ -57,7 +57,7 @@
             label1.Size = new Size(295, 39);
             label1.TabIndex = 1;
             label1.Text = "HÓA ĐƠN THANH TOÁN";
-            label1.Click += label1_Click;
+
             // 
             // dgvBill
             // 
@@ -96,6 +96,7 @@
             btnPayment.TabIndex = 6;
             btnPayment.Text = "THANH TOÁN";
             btnPayment.UseVisualStyleBackColor = true;
+            btnPayment.Click += btnPayment_Click;
             // 
             // Bill
             // 
@@ -110,6 +111,7 @@
             Controls.Add(pictureBox1);
             Name = "Bill";
             Text = "Bill";
+            Load += Bill_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvBill).EndInit();
             ResumeLayout(false);

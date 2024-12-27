@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace newproject
 {
-    internal class products
+    public class products
     {
         public string product_id { get; set; }
         public string product_name { get; set; }
