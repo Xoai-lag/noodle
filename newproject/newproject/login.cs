@@ -42,7 +42,7 @@ namespace newproject
                         this.Hide();
                         admin AD = new admin();
                         AD.ShowDialog();
-                        this.Show();
+                        this.Hide();
                         return;
                     }
                     else
@@ -50,7 +50,7 @@ namespace newproject
                         this.Hide();
                         Home home = new Home();
                         home.ShowDialog();
-                        this.Show();
+                        this.Hide();
                         return;
                     }
                 }
@@ -58,5 +58,12 @@ namespace newproject
             MessageBox.Show("Khong ton tai tai khoan!");
         }
 
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home home = new Home();
+            home.ShowDialog();
+            this.Hide();
+        }
     }
 }

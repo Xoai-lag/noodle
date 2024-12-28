@@ -32,7 +32,18 @@ namespace newproject
         private void btnPayment_Click(object sender, EventArgs e)
         {
             string orderId = Guid.NewGuid().ToString(); // Tạo OrderID duy nhất
-            string customerName = CurrentUser.LoggedInUser.UserName; // Lấy tên người dùng hiện tại
+            string customerName;
+
+            // Kiểm tra xem có người dùng đã đăng nhập hay không
+            if (CurrentUser.LoggedInUser != null)
+            {
+                customerName = CurrentUser.LoggedInUser.UserName; // Lấy tên người dùng nếu đã đăng nhập
+            }
+            else
+            {
+                customerName = "Khách hàng chưa đăng nhập"; // Nếu không có người dùng, đặt tên khách hàng mặc định
+            }
+
             DateTime orderDate = DateTime.Now;
             var items = new List<item>();
             foreach (DataGridViewRow row in dgvBill.Rows)
@@ -44,7 +55,6 @@ namespace newproject
                     decimal price = decimal.Parse(row.Cells["price"].Value.ToString());
 
                     items.Add(new item(orderId, productId, quantity, price));
-
                 }
             }
 
@@ -53,24 +63,37 @@ namespace newproject
             {
                 totalPrice += food.Price * food.Quantity;
             }
+
             // Tạo đối tượng đơn hàng
             Orders order = new Orders(orderId, customerName, orderDate, totalPrice, items);
 
             // Đọc các đơn hàng hiện có từ file
             List<Orders> existingOrders = Orders.ReadOrdersFormFile("orders.txt");
             existingOrders.Add(order);
+
             // Ghi lại tất cả đơn hàng vào file
             bool success = Orders.WriteOrdersToFile("orders.txt", existingOrders);
 
             if (success)
             {
                 MessageBox.Show("Đơn hàng đã được xử lý thành công.");
-            }
+                if (CurrentUser.LoggedInUser != null)
+                {
+
+                    this.Close(); // Đóng Bill Form
+                }
+                else
+                {
+
+                    this.Close(); // Đóng Bill Form
+                    login loginForm = new login();
+                    loginForm.Close(); // Đóng Login Form
+                }
+             }
             else
             {
                 MessageBox.Show("Không thể lưu đơn hàng.");
             }
-            this.Close();
         }
     }
 }
