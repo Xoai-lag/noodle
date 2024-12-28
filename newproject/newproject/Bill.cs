@@ -76,6 +76,7 @@ namespace newproject
 
             if (success)
             {
+
                 MessageBox.Show("Đơn hàng đã được xử lý thành công.");
                 if (CurrentUser.LoggedInUser != null)
                 {
@@ -89,7 +90,8 @@ namespace newproject
                     login loginForm = new login();
                     loginForm.Close(); // Đóng Login Form
                 }
-             }
+                Home.ResetFood();
+            }
             else
             {
                 MessageBox.Show("Không thể lưu đơn hàng.");

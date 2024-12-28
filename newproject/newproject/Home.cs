@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -23,6 +24,11 @@ namespace newproject
             List<products> temp = new List<products>();
             temp=result;
             return temp;
+        }
+        public static void ResetFood()
+        {
+            List<products> temp = new List<products>();
+            result = temp;
         }
         private void button1_Click(object sender, EventArgs e)
         {
